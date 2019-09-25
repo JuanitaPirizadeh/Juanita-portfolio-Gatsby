@@ -4,12 +4,8 @@ import StyledHero from "../components/StyledHero"
 import {graphql} from 'gatsby'
 export default class projects extends Component {
     render() {
-        return (
-            <Layout>
-               <StyledHero img={this.props.data.computer1.childImageSharp.fluid}/>
-       
-          </Layout>
-        )
+        return <Layout> <StyledHero img={this.props.data.computer1.childImageSharp.fluid}/> </Layout>
+        
     }
 }
 

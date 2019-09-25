@@ -15,7 +15,7 @@ const blog = () => {
 }
 
 
-export default blog
+
 
 export const query = graphql`
 query{
@@ -29,4 +29,4 @@ query{
   }
   
 `
-
+export default blog
