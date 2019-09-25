@@ -7,22 +7,22 @@
 module.exports = {
   /* Your site config here */
 siteMetadata:{
-  title: 'portfolio',
-  description: 'my first gatsby built portfolio',
+  title: 'Portfolio',
+  description: 'My first gatsby built portfolio',
   author: '@JuanitaPirizadeh',
   data: {
     name: "juanita",
-    age: 24,
+    age: 30,
   }
 },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
+        name: `images`,
         path: `${__dirname}/src/images/`,
       },
     },
     `gatsby-plugin-sass`,
-'gatsby-plugin-styled-components'],
+'gatsby-plugin-styled-components',`gatsby-transformer-sharp`, `gatsby-plugin-sharp`],
 }
