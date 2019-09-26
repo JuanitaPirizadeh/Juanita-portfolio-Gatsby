@@ -1,11 +1,12 @@
 import React from 'react'
-import { Link } from "gatsby"
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import About from '../components/Home/About'
 import Services from '../components/Home/Services'
 import StyledHero from "../components/StyledHero"
 import {graphql} from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 
 
 export default ({data}) => (
@@ -17,9 +18,9 @@ export default ({data}) => (
             title="Juanita Pirizadeh"
             info="Im basically what you would call an aspiring frond-end developer, and this is my portfolio. Welcome!"
             >
-                <Link to="/projects" className="btn-white">
+                <AniLink fade to="/projects" className="btn-white">
                     Check out my projects
-                </Link>
+                </AniLink>
             </Banner>
 </StyledHero>
     <About />
