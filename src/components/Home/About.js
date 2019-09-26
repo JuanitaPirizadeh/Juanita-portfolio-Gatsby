@@ -18,10 +18,9 @@ const About = () => {
             <article className={styles.aboutInfo}>
                 <h4> Hey guys!</h4>
                 <h3>Here is a little something about me</h3>
-                <p>
+                <p>Lorem ipsum dolor amet semiotics mixtape venmo thundercats blue bottle, lomo live-edge snackwave narwhal coloring book tilde authentic truffaut disrupt gluten-free. Cred humblebrag jianbing deep v, schlitz butcher tote bag food truck meggings. Vegan tilde succulents celiac, neutra etsy gluten-free photo booth organic iPhone subway tile. Mustache thundercats palo santo plaid raw denim salvia sustainable pitchfork neutra taiyaki humblebrag mixtape tumblr flannel viral.
                 </p>
-                <p>Jag har studerat på Nackademin snart tre terminer och herre gud vad tiden har gått fort!
-                    Det som inspirerar mig är inovativ och nytänkande design, detta varesig det gäller programering eller inredning till hemmet.
+                <p> Lorem ipsum dolor amet semiotics mixtape venmo thundercats blue bottle, lomo live-edge snackwave narwhal coloring book tilde authentic truffaut disrupt gluten-free. Cred humblebrag jianbing deep v, schlitz butcher tote bag food truck meggings. Vegan tilde succulents celiac, neutra etsy gluten-free photo booth organic iPhone subway tile. 
                 </p>
                 <button type="button"
                 className="btn-primary">

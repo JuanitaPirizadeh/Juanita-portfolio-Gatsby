@@ -6,7 +6,7 @@ import Services from '../components/Home/Services'
 import StyledHero from "../components/StyledHero"
 import {graphql} from 'gatsby'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
-
+import FeaturedProjects from '../components/Home/FeaturedProjects'
 
 
 export default ({data}) => (
@@ -21,10 +21,12 @@ export default ({data}) => (
                 <AniLink fade to="/projects" className="btn-white">
                     Check out my projects
                 </AniLink>
+                
             </Banner>
 </StyledHero>
     <About />
     <Services />
+    <FeaturedProjects />
 </Layout>
 )
 

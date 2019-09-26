@@ -50,8 +50,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.btn-white {
-    
+.btn-white { 
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
@@ -73,7 +72,6 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
-  
   @keyframes animate {
     0% {
       background-position: -500%;
@@ -92,6 +90,7 @@ a {
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
+  
 }
 .btn-white:hover {
   background: var(--mainWhite);
