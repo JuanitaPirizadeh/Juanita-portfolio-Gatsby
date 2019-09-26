@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import StyledHero from "../components/StyledHero"
 import Banner from '../components/Banner'
 import {graphql} from 'gatsby'
+import FeaturedProjects from '../components/Home/FeaturedProjects'
 export default class projects extends Component {
     render() {
         return <Layout> <StyledHero img={this.props.data.computer1.childImageSharp.fluid}><Banner
@@ -11,7 +12,9 @@ export default class projects extends Component {
         
         >
         </Banner>
-       </StyledHero> </Layout>
+       </StyledHero> 
+       <FeaturedProjects />
+       </Layout>
         
     }
 }
